@@ -1,0 +1,9 @@
+.material-icons,
+button .material-icons {
+    font-size: 18px;
+
+    width: 1em;
+    height: 1em;
+
+    vertical-align: -4px;
+}

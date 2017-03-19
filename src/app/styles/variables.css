@@ -1,0 +1,75 @@
+:root {
+    --font-size: 0.875rem;
+    --line-height: 1.5;
+
+    --font-size-lg: 1.5rem;
+    --font-size-md: 1.125rem;
+    --font-size-sm: 0.80rem;
+    --font-size-xs: 0.75rem;
+
+    --full-black: rgba(0, 0, 0, 1);
+    --dark-black: rgba(0, 0, 0, 0.87);
+    --light-black: rgba(0, 0, 0, 0.54);
+    --min-black: rgba(0, 0, 0, 0.065);
+
+    --full-white: rgba(255, 255, 255, 1);
+    --dark-white: rgba(255, 255, 255, 0.87);
+    --light-white: rgba(255, 255, 255, 0.54);
+    --min-white: rgba(255, 255, 255, 0.1);
+
+    --border-color: rgba(120, 130, 140, 0.13);
+    --border-color-lt: rgba(120, 130, 140, 0.065);
+    --border-color-lter: rgba(120, 130, 140, 0.045);
+
+    --brand: #ff1d1d;
+    --primary: #0cc2aa;
+    --accent: #a88add;
+    --warn: #fcc100;
+
+    --info: #6887ff;
+    --success: #6cc788;
+    --warning: #f77a99;
+    --danger: #f44455;
+
+    --light: #f8f8f8;
+    --grey: #424242;
+    --dark: #2e3e4e;
+    --black: #2a2b3c;
+    --white: #ffffff;
+
+    --primary-color: var(--dark-white);
+    --accent-color: var(--dark-white);
+    --warn-color: var(--dark-white);
+    --success-color: var(--dark-white);
+    --info-color: var(--dark-white);
+    --warning-color: var(--dark-white);
+    --danger-color: var(--dark-white);
+    --light-color: var(--dark-black);
+    --grey-color: var(--dark-white);
+    --dark-color: var(--dark-white);
+    --black-color: var(--dark-white);
+
+    --html-bg: #e0e0e0;
+    --body-bg: #f0f0f0;
+    --text-color: var(--dark-black);
+    --text-muted: var(--light-black);
+
+    --aside-width: 12.5rem;
+    --aside-lg-width: 13.75rem;
+    --aside-sm-width: 11.25rem;
+    --aside-folded-width: 4rem;
+    --aside-folded-md-width: 5rem;
+    --aside-nav-height: 2.25rem;
+    --aside-nav-folded-height: 2.5rem;
+    --aside-nav-sub-height: 2rem;
+    --aside-nav-stacked-height: 2rem;
+
+    --menu-header-height: 3.5rem;
+    --menu-header-md-height: 4rem;
+    --menu-header-sm-height: 3rem;
+
+    --main-border-radius: 3px;
+
+    --main-padding: 1.5rem;
+    --main-margin: 1rem;
+}

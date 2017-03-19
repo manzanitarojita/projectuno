@@ -1,0 +1,52 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+
+    background-color: var(--body-bg);
+}
+
+body {
+    height: 100%;
+    min-height: 100%;
+    position: relative;
+
+    margin: 0;
+
+    background-color: var(--body-bg);
+
+    color: var(--dark-black);
+}
+
+*:focus {
+    outline: 0;
+}
+
+a, area, button, input, label, summary, textarea {
+    touch-action: manipulation;
+}
+
+a, button {
+    cursor: pointer;
+}
+
+body > section {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    outline: 0;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+.hidden {
+    height: 0;
+    overflow: hidden;
+}

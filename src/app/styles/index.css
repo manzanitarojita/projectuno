@@ -1,0 +1,5 @@
+@import './variables.css';
+
+@import './style-part/fonts.css';
+@import './style-part/base.css';
+@import './style-part/icons.css';

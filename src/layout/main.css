@@ -1,0 +1,27 @@
+@import '../app/styles/variables.css';
+@import '../app/styles/mixin.css';
+
+.main {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+
+    height: 50px;
+
+    background-color: var(--full-white);
+
+    @apply(--shadow);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+
+    height: 100%;
+}

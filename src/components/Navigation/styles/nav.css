@@ -1,0 +1,28 @@
+@import '../../../app/styles/variables.css';
+
+.menu {
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+}
+
+.item {
+    border: inherit;
+    position: relative;
+}
+
+.item a {
+    display: flex;
+    align-items: center;
+    padding: .3rem 1rem;
+    line-height: 1.125rem;
+    position: relative;
+
+    color: inherit;
+    opacity: .75;
+
+    font-weight: 500;
+
+    min-height: var(--aside-nav-height);
+}

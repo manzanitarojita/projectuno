@@ -1,0 +1,14 @@
+:root {
+    --shadow: {
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    };
+    --shadow-lite: {
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.03);
+    };
+
+    --clearfix: {
+        content: '';
+        display: table;
+        clear: both;
+    };
+}
