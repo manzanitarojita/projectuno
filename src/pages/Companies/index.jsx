@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 import SubMenu from '../../components/SubMenu';
 import CompaniesService from '../../app/bi/services/companies';
@@ -49,7 +50,9 @@ class Companies extends Component {
                         {item.INN}
                     </div>
                     <div className={styles.action}>
-                    
+                        <Link to={`/document/${item.Id}`}>
+                            doc
+                        </Link>
                     </div>
                 </div>
             );

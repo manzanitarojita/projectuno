@@ -1,0 +1,94 @@
+@import '../../../app/styles/variables.css';
+@import '../../../app/styles/mixin.css';
+
+.wrap {
+    width: 650px;
+    height: 900px;
+
+    background-color: var(--full-white);
+
+    margin: 25px auto;
+    padding: 15px;
+
+    @apply(--shadow-lite);
+}
+
+.table {
+    border: 1px solid var(--full-black);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    align-content: center;
+}
+
+.row_b {
+    border-bottom: 1px solid var(--full-black);
+}
+
+.mt {
+    margin-top: 15px;
+}
+
+.cell {
+    display: flex;
+    align-content: center;
+    align-items: center;
+
+    padding: .3rem;
+}
+
+.cell_l2-3 {
+    border-right: 1px solid var(--full-black);
+
+    display: flex;
+    flex: 0 0 75%;
+}
+
+.cell_r1-3 {
+    display: flex;
+    flex: 0 0 25%;
+}
+
+.cell_1-2 {
+    display: flex;
+    flex: 0 0 50%;
+}
+
+.cell_1-4 {
+    display: flex;
+    flex: 0 0 25%;
+}
+
+.cell_br {
+    border-right: 1px solid var(--full-black);
+}
+
+.cell_c {
+    justify-content: center;
+    align-items: center;
+}
+
+.fw {
+    font-weight: 500;
+}
+
+.list {
+    margin: 0;
+    padding: 0 0 0 1.3rem;
+}
+
+.list > li {
+    text-align: justify;
+}
+
+.list > li > ul {
+    padding: 0 0 0 1.3rem;
+}
+
+.tsf {
+    font-size: var(--font-size-xs);
+}

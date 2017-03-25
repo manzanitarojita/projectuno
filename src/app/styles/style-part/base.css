@@ -40,6 +40,10 @@ a {
     text-decoration: none;
     cursor: pointer;
     outline: 0;
+
+    color: inherit;
+
+    opacity: .75;
 }
 
 a:hover {

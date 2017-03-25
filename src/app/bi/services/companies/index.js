@@ -4,13 +4,22 @@ const COMPANYTYPE = {
 };
 
 class Companies {
-    companies = [];
+    companies = [
+        {
+            Id: 'simple_company',
+            Name: 'Simple Company',
+            ShortName: 'SMCMS',
+            INN: '1-8901371023'
+        }
+    ];
     
     get() {
         return this.companies;
     }
     
     add(company) {
+        company.Id = company.Name.toLowerCase() + '_company';
+        
         this.companies.push(company);
     }
     

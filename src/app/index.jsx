@@ -9,6 +9,7 @@ import ROUTERS from './router';
 
 import MainLayout from '../layout/main';
 import NotFound from '../pages/NotFound';
+import Document from '../pages/Documents';
 
 import './styles/index.css';
 
@@ -28,6 +29,7 @@ class App extends Component {
                                 />
                             ))
                         }
+                        <Route path='/document/:company' component={ Document }/>
                         <Route component={ NotFound }/>
                     </Switch>
                 </MainLayout>
