@@ -1,3 +1,8 @@
+const COMPANYTYPE = {
+    DEFAULT: 'DEFAULT',
+    AUDIT: 'AUDIT'
+};
+
 class Companies {
     companies = [];
     
@@ -6,7 +11,11 @@ class Companies {
     }
     
     add(company) {
-        this.components.push(company);
+        this.companies.push(company);
+    }
+    
+    getCompanyType() {
+        return COMPANYTYPE;
     }
 }
 

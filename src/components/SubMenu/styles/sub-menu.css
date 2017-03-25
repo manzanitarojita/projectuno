@@ -1,0 +1,13 @@
+@import '../../../app/styles/variables.css';
+@import '../../../app/styles/mixin.css';
+
+.wrap {
+    background-color: var(--dark-white);
+    height: var(--sub-menu-header);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @apply(--shadow-lite);
+}

@@ -10,6 +10,7 @@
     --full-black: rgba(0, 0, 0, 1);
     --dark-black: rgba(0, 0, 0, 0.87);
     --light-black: rgba(0, 0, 0, 0.54);
+    --small-black: rgba(0, 0, 0, 0.29);
     --min-black: rgba(0, 0, 0, 0.065);
 
     --full-white: rgba(255, 255, 255, 1);
@@ -64,9 +65,13 @@
     --aside-nav-sub-height: 2rem;
     --aside-nav-stacked-height: 2rem;
 
+    --form-width: 35rem;
+
     --menu-header-height: 3.5rem;
     --menu-header-md-height: 4rem;
     --menu-header-sm-height: 3rem;
+
+    --sub-menu-header: 2rem;
 
     --main-border-radius: 3px;
 

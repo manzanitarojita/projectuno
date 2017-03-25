@@ -1,0 +1,27 @@
+@import '../../../app/styles/variables.css';
+@import '../../../app/styles/mixin.css';
+
+.wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--dark-white);
+
+    height: 0;
+    transition: height 0.75s ease-out;
+    overflow: hidden;
+}
+
+.active {
+    height: 100%;
+}
+
+.form {
+    width: var(--form-width);
+
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+}
